@@ -38,6 +38,7 @@ public class UnboundedWC {
             }
         });
 
+
         MapStream.keyBy(new KeySelector<Tuple2<String, Long>, String>() {
             @Override
             public String getKey(Tuple2<String, Long> value) throws Exception {
